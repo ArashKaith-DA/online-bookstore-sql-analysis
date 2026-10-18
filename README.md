@@ -41,13 +41,34 @@ The project demonstrates how SQL can be used to retrieve information, analyze sa
 6. Which book was ordered most frequently?
 7. Which customers spent the most?
 8. How much stock remains after accounting for recorded orders?
-
+   
 ## Repository Structure
 
 - `Books.csv` — Book dataset
 - `Customers.csv` — Customer dataset
 - `Orders.csv` — Order dataset
 - `SQL.sql` — Table creation, data import commands, and analysis queries
+
+## Key Findings
+
+- Generated total recorded revenue of 75,628.66 across 500 orders.
+- Recorded 2,697 books ordered, with an average order value of 151.26.
+- Romance generated the highest revenue among the seven genres, at 13,086.98.
+- Mystery had the highest total quantity sold, with 504 units.
+- Identified the highest-spending customer by aggregating order values.
+- Identified a book with zero recorded stock, highlighting a potential inventory issue.
+- Found 139 customers who placed at least two orders.
+
+## Business Recommendations
+
+- **Genre performance:** Review the pricing, availability, and demand for Romance and Mystery books.
+- **Inventory management:** Investigate books with zero stock and determine whether replenishment is needed.
+- **Customer retention:** Analyze repeat customers to identify purchasing patterns and opportunities for retention.
+- **Sales analysis:** Compare revenue, order quantities, and average order values across genres.
+
+## Limitations
+
+The findings reflect the supplied datasets and do not establish actual business performance. Currency is unspecified, and stock calculations depend on how the Stock field is defined. Customer information should be anonymized before public distribution.
 
 ## How to Run
 
